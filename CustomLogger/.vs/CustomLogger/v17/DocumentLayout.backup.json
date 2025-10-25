@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|c:\\users\\marczak.j\\onedrive - elettric 80\\desktop\\repo\\customlogger\\customlogger\\customlogger\\customlogger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|solutionrelative:customlogger\\customlogger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|c:\\users\\marczak.j\\onedrive - elettric 80\\desktop\\repo\\customlogger\\customlogger\\customlogger\\model\\customloggerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|solutionrelative:customlogger\\model\\customloggerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|c:\\users\\marczak.j\\onedrive - elettric 80\\desktop\\repo\\customlogger\\customlogger\\customlogger\\model\\customloggerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|solutionrelative:customlogger\\model\\customloggerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|c:\\users\\marczak.j\\onedrive - elettric 80\\desktop\\repo\\customlogger\\customlogger\\customlogger\\abstraction\\icustomlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|solutionrelative:customlogger\\abstraction\\icustomlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|c:\\users\\marczak.j\\onedrive - elettric 80\\desktop\\repo\\customlogger\\customlogger\\customlogger\\extension\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|solutionrelative:customlogger\\extension\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|c:\\users\\marczak.j\\onedrive - elettric 80\\desktop\\repo\\customlogger\\customlogger\\customlogger\\enum\\eloglevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|solutionrelative:customlogger\\enum\\eloglevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|c:\\users\\marczak.j\\onedrive - elettric 80\\desktop\\repo\\customlogger\\customlogger\\customlogger\\helper\\colorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91CDCAF-15C4-4527-BF7F-36FE17A45019}|CustomLogger\\CustomLogger.csproj|solutionrelative:customlogger\\helper\\colorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomLoggerClass.cs",
+              "DocumentMoniker": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Model\\CustomLoggerClass.cs",
+              "RelativeDocumentMoniker": "CustomLogger\\Model\\CustomLoggerClass.cs",
+              "ToolTip": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Model\\CustomLoggerClass.cs",
+              "RelativeToolTip": "CustomLogger\\Model\\CustomLoggerClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T14:19:00.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICustomLogger.cs",
+              "DocumentMoniker": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Abstraction\\ICustomLogger.cs",
+              "RelativeDocumentMoniker": "CustomLogger\\Abstraction\\ICustomLogger.cs",
+              "ToolTip": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Abstraction\\ICustomLogger.cs",
+              "RelativeToolTip": "CustomLogger\\Abstraction\\ICustomLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T14:18:51.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ELogLevel.cs",
+              "DocumentMoniker": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Enum\\ELogLevel.cs",
+              "RelativeDocumentMoniker": "CustomLogger\\Enum\\ELogLevel.cs",
+              "ToolTip": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Enum\\ELogLevel.cs",
+              "RelativeToolTip": "CustomLogger\\Enum\\ELogLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T11:52:56.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomLoggerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Model\\CustomLoggerFactory.cs",
+              "RelativeDocumentMoniker": "CustomLogger\\Model\\CustomLoggerFactory.cs",
+              "ToolTip": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Model\\CustomLoggerFactory.cs",
+              "RelativeToolTip": "CustomLogger\\Model\\CustomLoggerFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T11:52:46.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ColorHelper.cs",
+              "DocumentMoniker": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Helper\\ColorHelper.cs",
+              "RelativeDocumentMoniker": "CustomLogger\\Helper\\ColorHelper.cs",
+              "ToolTip": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Helper\\ColorHelper.cs",
+              "RelativeToolTip": "CustomLogger\\Helper\\ColorHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T11:41:13.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomLogger.csproj",
+              "DocumentMoniker": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\CustomLogger.csproj",
+              "RelativeDocumentMoniker": "CustomLogger\\CustomLogger.csproj",
+              "ToolTip": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\CustomLogger.csproj",
+              "RelativeToolTip": "CustomLogger\\CustomLogger.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T11:40:14.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Extension\\ServiceExtension.cs",
+              "RelativeDocumentMoniker": "CustomLogger\\Extension\\ServiceExtension.cs",
+              "ToolTip": "C:\\Users\\marczak.j\\OneDrive - Elettric 80\\Desktop\\Repo\\CustomLogger\\CustomLogger\\CustomLogger\\Extension\\ServiceExtension.cs",
+              "RelativeToolTip": "CustomLogger\\Extension\\ServiceExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:52:24.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
