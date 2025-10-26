@@ -7,10 +7,13 @@ namespace CustomLogger.Model
 {
     public sealed class CustomLoggerClass<T> : ICustomLogger<T> where T : class
     {
+        #region fields
         private static object _Consolelock = new object();
+        #endregion
         public CustomLoggerClass()
         {
         }
+        #region Trace Logs
         public void LogTrace(string message)
         {
             GenerateMessage(ELogLevel.Debug, message);
@@ -20,6 +23,9 @@ namespace CustomLogger.Model
         {
             GenerateMessage(ELogLevel.Debug, message, args);
         }
+        #endregion
+
+        #region Information Logs
         public void LogInformation(string message)
         {
             GenerateMessage(ELogLevel.Info, message);
@@ -29,6 +35,9 @@ namespace CustomLogger.Model
         {
             GenerateMessage(ELogLevel.Info, message, args);
         }
+        #endregion
+
+        #region Warning Logs
         public void LogWarning(string message)
         {
             GenerateMessage(ELogLevel.Warning, message);
@@ -38,6 +47,9 @@ namespace CustomLogger.Model
         {
             GenerateMessage(ELogLevel.Warning, message, args);
         }
+        #endregion
+
+        #region Debug Logs
         public void LogDebug(string message)
         {
             GenerateMessage(ELogLevel.Debug, message);
@@ -47,11 +59,18 @@ namespace CustomLogger.Model
         {
             GenerateMessage(ELogLevel.Debug, message, args);
         }
-        public void LogError(string message, Exception ex)
+        #endregion
+
+        #region Error Logs
+        public void LogError(string message)
+        {
+            GenerateMessage(ELogLevel.Error, message);
+        }
+        public void LogError(Exception ex, string message)
         {
             GenerateMessage(ELogLevel.Error, ex, message);
         }
-        public void LogError(string message, Exception ex, params object[] args)
+        public void LogError(Exception ex, string message,  params object[] args)
         {
             GenerateMessage(ELogLevel.Error, ex, message, args);
         }
@@ -59,7 +78,9 @@ namespace CustomLogger.Model
         {
             GenerateMessage(ELogLevel.Error, message, args);
         }
-      
+        #endregion
+
+        #region Critical Logs
         public void LogCritical(string message)
         {
             GenerateMessage(ELogLevel.Critical, message);
@@ -69,14 +90,17 @@ namespace CustomLogger.Model
         {
             GenerateMessage(ELogLevel.Critical, message, args);
         }
-        public void LogCritical(string message, Exception ex)
+        public void LogCritical(Exception ex, string message)
         {
             GenerateMessage(ELogLevel.Critical, message, ex);
         }   
-        public void LogCritical(string message, Exception ex, params object[] args)
+        public void LogCritical(Exception ex, string message, params object[] args)
         {
             GenerateMessage(ELogLevel.Critical, message, ex, args);
         }
+        #endregion
+
+        #region methods
         private void GenerateMessage(ELogLevel logLevel, string message)
         {
             string formattedMessage = string.Empty;
@@ -192,5 +216,7 @@ namespace CustomLogger.Model
                 Console.WriteLine(formattedMessage);
             }
         }
+        #endregion
     }
 }
+
