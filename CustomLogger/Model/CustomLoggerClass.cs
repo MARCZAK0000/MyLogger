@@ -137,7 +137,8 @@ namespace CustomLogger.Model
             string formattedMessage = string.Empty;
             try
             {
-                formattedMessage = string.Format(message, args);
+                string convetedMessage = ReplacePlaceholders(message);  
+                formattedMessage = string.Format(convetedMessage, args);
             }
             catch (Exception)
             {
@@ -165,7 +166,8 @@ namespace CustomLogger.Model
             string formattedMessage = string.Empty;
             try
             {
-                formattedMessage = string.Format(message, args);
+                string convetedMessage = ReplacePlaceholders(message);
+                formattedMessage = string.Format(convetedMessage, args);
                 string strException = GenerateExceptionLog(ex);
                 string combined = $"{formattedMessage} - Exception: {strException}";
             }
@@ -174,7 +176,13 @@ namespace CustomLogger.Model
                 formattedMessage = message;
             }
             GenerateMessage(logLever, formattedMessage);
-        } 
+        }
+        private string ReplacePlaceholders(string message)
+        {
+            var regex = new System.Text.RegularExpressions.Regex(@"\{(\w+)\}");
+            int index = 0;
+            return regex.Replace(message, match => $"{{{index++}}}");
+        }
         private string GenerateExceptionLog(Exception ex)
         {
             if (ex == null) return string.Empty;
